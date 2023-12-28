@@ -1,0 +1,22 @@
+%
+% Silicate and titanium percentage [%] of high grade schists, 
+%  Littleton Formation, New Hampshire
+%
+%   [Silicate, wt%]    [Titanium, wt%]
+%
+        74.40                0.46  
+        44.20                0.74  
+        85.30                0.41  
+        62.40                1.04  
+        69.20                0.89  
+        62.00                1.21  
+        58.60                1.10  
+        67.80                0.93  
+        67.40                0.70  
+        62.60                1.03  
+        63.40                0.71  
+        70.30                0.44  
+        65.00                0.97  
+        68.40                0.86  
+        63.40                1.02  
+        61.20                0.96  

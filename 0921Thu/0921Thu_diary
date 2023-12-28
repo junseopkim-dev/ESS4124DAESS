@@ -1,0 +1,304 @@
+xy = load('dewijs1.txt');
+figure,plot(xy(:,2))
+x=xy(:1);
+ x=xy(:1);
+       ↑
+{Invalid expression. Check for missing multiplication operator,
+missing or unbalanced delimiters, or other syntax error. To construct
+matrices, use brackets instead of parentheses.
+} 
+x=xy(:1);
+ x=xy(:1);
+       ↑
+{Invalid expression. Check for missing multiplication operator,
+missing or unbalanced delimiters, or other syntax error. To construct
+matrices, use brackets instead of parentheses.
+} 
+x=xy(:,1);
+y=xy(:,2);
+jk=y<0;
+jk=y>=0;
+[n1,n2]=size(xy)
+
+n1 =
+
+   118
+
+
+n2 =
+
+     2
+
+jk=y>=0;
+sum(jk)
+
+ans =
+
+   116
+
+%평균
+mm=sum(y(jk));
+ss=sum(y(jk));
+ss
+
+ss =
+
+   1.8316e+03
+
+nn=sum(jk)
+
+nn =
+
+   116
+
+mm=ss/nn
+
+mm =
+
+   15.7897
+
+figure,plot(x,y)
+figure,plot(x(jk),y(jk))
+figure,plot(2*x(jk),y(jk))
+figure,plot(2*x(jk),y(jk),'lindwidth',2.0)
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('plot')" style="font-weight:bold">plot</a>
+Unrecognized property lindwidth for class Line.
+} 
+figure,plot(2*x(jk),y(jk),'linewidth',2.0)
+xlabe('distance (m)')
+{Unrecognized function or variable 'xlabe'.
+} 
+xlabel('distance (m)')
+ylabel('Zn weight % in Qz vein', 'Fontsize',20)
+ylabel('Zn weight %', 'Fontsize',20)
+title('Zn weight % in Qz vein', 'Fontsize',20)
+fprintf("\n Mean =  %g(wt%) \n",mm)
+
+ Mean =  15.7897(wt
+clear all
+whos
+0921Thu_1.m
+ 0921Thu_1.m
+     ↑
+{Invalid expression. Check for missing multiplication operator,
+missing or unbalanced delimiters, or other syntax error. To
+construct matrices, use brackets instead of parentheses.
+} 
+0921Thu_1.m
+ 0921Thu_1.m
+     ↑
+{Invalid expression. Check for missing multiplication operator,
+missing or unbalanced delimiters, or other syntax error. To
+construct matrices, use brackets instead of parentheses.
+} 
+0921Thu_1.m
+ 0921Thu_1.m
+     ↑
+{Invalid expression. Check for missing multiplication operator,
+missing or unbalanced delimiters, or other syntax error. To
+construct matrices, use brackets instead of parentheses.
+} 
+untitled4
+{<a href="matlab: opentoline('C:\Users\kjs\Documents\3-2\DAESS\0921Thu\untitled4.m',3,7)">File: untitled4.m Line: 3 Column: 7</a>
+Invalid expression. Check for missing multiplication operator,
+missing or unbalanced delimiters, or other syntax error. To
+construct matrices, use brackets instead of parentheses.
+} 
+opentoline('C:\Users\kjs\Documents\3-2\DAESS\0921Thu\untitled4.m',3,7)
+0921Thu_1.m
+ 0921Thu_1.m
+     ↑
+{Invalid expression. Check for missing multiplication operator,
+missing or unbalanced delimiters, or other syntax error. To
+construct matrices, use brackets instead of parentheses.
+} 
+0921Thu_1.m
+ 0921Thu_1.m
+     ↑
+{Invalid expression. Check for missing multiplication operator,
+missing or unbalanced delimiters, or other syntax error. To
+construct matrices, use brackets instead of parentheses.
+} 
+mean(y(jk))
+{Unrecognized function or variable 'jk'.
+} 
+edit mean
+mean(y(jk))
+{Unrecognized function or variable 'jk'.
+} 
+0921Thu_1.m
+ 0921Thu_1.m
+     ↑
+{Invalid expression. Check for missing multiplication operator,
+missing or unbalanced delimiters, or other syntax error. To
+construct matrices, use brackets instead of parentheses.
+} 
+untitled4
+{<a href="matlab: opentoline('C:\Users\kjs\Documents\3-2\DAESS\0921Thu\untitled4.m',3,7)">File: untitled4.m Line: 3 Column: 7</a>
+Invalid expression. Check for missing multiplication operator,
+missing or unbalanced delimiters, or other syntax error. To
+construct matrices, use brackets instead of parentheses.
+} 
+untitled4
+{<a href="matlab: opentoline('C:\Users\kjs\Documents\3-2\DAESS\0921Thu\untitled4.m',18,45)">File: untitled4.m Line: 18 Column: 45</a>
+Invalid use of operator.
+} 
+untitled4
+
+ Mean =  15.7897 (wt[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter
+ syntax:
+Zn weight \] 
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter
+ syntax:
+Zn weight \] 
+opentoline('C:\Users\kjs\Documents\3-2\DAESS\0921Thu\untitled4.m',18,45)
+0921Thu_1.m
+ 0921Thu_1.m
+     ↑
+{Invalid expression. Check for missing multiplication operator,
+missing or unbalanced delimiters, or other syntax error. To
+construct matrices, use brackets instead of parentheses.
+} 
+0921Thu_1.m
+ 0921Thu_1.m
+     ↑
+{Invalid expression. Check for missing multiplication operator,
+missing or unbalanced delimiters, or other syntax error. To
+construct matrices, use brackets instead of parentheses.
+} 
+untitled4
+
+ Mean =  15.7897 (wt[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter
+ syntax:
+Zn weight \] 
+[Warning: Error updating Text.
+
+ String scalar or character vector must have valid interpreter
+ syntax:
+Zn weight \] 
+0921Thu_1
+ 0921Thu_1
+     ↑
+{Invalid expression. Check for missing multiplication operator,
+missing or unbalanced delimiters, or other syntax error. To
+construct matrices, use brackets instead of parentheses.
+} 
+0921Thue1
+ 0921Thue1
+     ↑
+{Invalid expression. Check for missing multiplication operator,
+missing or unbalanced delimiters, or other syntax error. To
+construct matrices, use brackets instead of parentheses.
+} 
+0921Thue1.m
+ 0921Thue1.m
+     ↑
+{Invalid expression. Check for missing multiplication operator,
+missing or unbalanced delimiters, or other syntax error. To
+construct matrices, use brackets instead of parentheses.
+} 
+help average
+<strong>average</strong> is a function.
+    m = <strong>average</strong>(x)
+
+    <a href="matlab:matlab.internal.language.introspective.overloads.displayOverloads('average')">Other uses of average</a>
+
+help average
+ 
+ This program compute mean value
+ 이 프로그램은 평균 계산
+
+    <a href="matlab:matlab.internal.language.introspective.overloads.displayOverloads('average')">Other uses of average</a>
+
+one.m
+{Unable to resolve the name 'one.m'.
+} 
+one
+
+ Mean =  15.7897 (wtone
+
+ Mean =  15.7897 (wt%) 
+help average
+ 
+ This program compute mean value
+ 이 프로그램은 평균 계산
+ input : x - 1d data
+ output : n = mean value
+
+    <a href="matlab:matlab.internal.language.introspective.overloads.displayOverloads('average')">Other uses of average</a>
+
+average(y(jk))
+
+ans =
+
+   15.7897
+
+a=average(y(jk));
+one
+
+ Mean =  15.7897 (wt%) 
+test1
+
+ Mean =  15.7897 (wt%) 
+[a,b]=average(y(jk))
+{Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('average')" style="font-weight:bold">average</a>
+Too many output arguments.
+} 
+[a,b]=average(y(jk))
+
+a =
+
+   15.7897
+
+
+b =
+
+   116
+
+a=average(y(jk))
+
+a =
+
+   15.7897
+
+[a,b]=average(y)
+
+a =
+
+   -1.4102
+
+
+b =
+
+   118
+
+%-999가 포함되어있기 때문
+[a,b]=average(y)
+
+a =
+
+   15.7897
+
+
+b =
+
+   116
+
+close all
+test1
+
+ Mean =  15.7897 (wt%) 
+test1
+
+ Mean =  15.7897 (wt%) 
+test1
+
+ Mean =  15.7897 (wt%) 
+%function만들기, .m파일 만들기 중요
+diary off
